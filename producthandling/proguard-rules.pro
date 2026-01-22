@@ -17,11 +17,23 @@
 #-keepattributes SourceFile,LineNumberTable
 
 # If you keep the line number information, uncomment this to
+
 # hide the original source file name.
+
 #-renamesourcefileattribute SourceFile
 
+
+
 # Keep the public API of the library
+
 -keep class com.example.producthandling.StreamLibAPI { *; }
+
 -keep class com.example.producthandling.StreamLibProvider { *; }
+
 -keep class com.example.producthandling.model.Product { *; }
+
 -keepclassmembers class com.example.producthandling.model.Product { *; }
+
+
+
+-dontwarn java.lang.invoke.**
