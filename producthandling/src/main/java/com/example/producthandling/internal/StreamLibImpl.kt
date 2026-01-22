@@ -22,6 +22,7 @@ internal class StreamLibImpl : StreamLibAPI {
         initialized = false
         initMutex.withLock {
             if (!initialized) {
+                productList.clear()
                 (1..500_000).forEach {
                     val id = it
                     productList.add(
