@@ -1,7 +1,7 @@
 package com.example.producthandling.internal
 
-import Product
 import com.example.producthandling.StreamLibAPI
+import com.example.producthandling.model.Product
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

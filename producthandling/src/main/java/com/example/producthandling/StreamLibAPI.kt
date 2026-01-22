@@ -1,6 +1,6 @@
 package com.example.producthandling
 
-import Product
+import com.example.producthandling.model.Product
 
 
 interface StreamLibAPI {

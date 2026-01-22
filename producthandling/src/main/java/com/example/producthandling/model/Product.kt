@@ -1,3 +1,5 @@
+package com.example.producthandling.model
+
 data class Product(
     val id: Int,
     var name: String? = null,
